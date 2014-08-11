@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/eventListeners.dtd">
+<data>	
+	<import>
+		<!-- Display the additional tab on message form -->
+		<eventlistener>
+			<eventClassName>ThreadAddForm</eventClassName>
+			<eventName>assignVariables</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightMessageFormListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostAddForm</eventClassName>
+			<eventName>assignVariables</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightMessageFormListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostQuickAddForm</eventClassName>
+			<eventName>assignVariables</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightMessageFormListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostEditForm</eventClassName>
+			<eventName>assignVariables</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightMessageFormListener.class.php</listenerClassFile>
+		</eventlistener>
+		
+		<eventlistener>
+			<eventClassName>ThreadAddForm</eventClassName>
+			<eventName>readData</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightMessageFormListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostAddForm</eventClassName>
+			<eventName>readData</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightMessageFormListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostQuickAddForm</eventClassName>
+			<eventName>readData</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightMessageFormListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostEditForm</eventClassName>
+			<eventName>readData</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightMessageFormListener.class.php</listenerClassFile>
+		</eventlistener>
+		
+		<!-- Inject the value to the ThreadAdd and PostAdd object by reading the post parameter -->
+		<eventlistener>
+			<eventClassName>ThreadAddForm</eventClassName>
+			<eventName>readFormParameters</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightSaveListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostAddForm</eventClassName>
+			<eventName>readFormParameters</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightSaveListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostQuickAddForm</eventClassName>
+			<eventName>readFormParameters</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightSaveListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostEditForm</eventClassName>
+			<eventName>readFormParameters</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightSaveListener.class.php</listenerClassFile>
+		</eventlistener>
+		
+		<eventlistener>
+			<eventClassName>ThreadAddForm</eventClassName>
+			<eventName>assignVariables</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightSaveListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostAddForm</eventClassName>
+			<eventName>assignVariables</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightSaveListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostQuickAddForm</eventClassName>
+			<eventName>assignVariables</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightSaveListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostEditForm</eventClassName>
+			<eventName>assignVariables</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightSaveListener.class.php</listenerClassFile>
+		</eventlistener>
+		
+		<!-- Save the value with the post/thread -->
+		<eventlistener>
+			<eventClassName>ThreadAddForm</eventClassName>
+			<eventName>saved</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightSaveListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostAddForm</eventClassName>
+			<eventName>saved</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightSaveListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostQuickAddForm</eventClassName>
+			<eventName>saved</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightSaveListener.class.php</listenerClassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventClassName>PostEditForm</eventClassName>
+			<eventName>saved</eventName>
+			<listenerClassFile>lib/system/event/listener/PosthighlightSaveListener.class.php</listenerClassFile>
+		</eventlistener>
+	</import>
+</data>

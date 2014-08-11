@@ -1,0 +1,11 @@
+--- thread.tpl	2011-09-13 09:42:39.000000000 +0200
++++ thread-patched.tpl	2011-09-13 09:42:09.000000000 +0200
+@@ -172,7 +172,7 @@
+ 		{/if}
+ 		
+ 		{if !$post->isDeleted || $board->getModeratorPermission('canReadDeletedPost')}
+-			<div id="postRow{@$post->postID}" class="message{if THREAD_ENABLE_THREAD_AUTHOR && $sidebar->getUser()->userID && $sidebar->getUser()->userID == $thread->userID} threadStarterPost{/if}"{if $hiddenDeletedPost || $hiddenIgnoredPost} style="display: none"{/if}>
++			<div id="postRow{@$post->postID}" class="message{if THREAD_ENABLE_THREAD_AUTHOR && $sidebar->getUser()->userID && $sidebar->getUser()->userID == $thread->userID} threadStarterPost{/if}{if $post->posthighlightClass} {$post->posthighlightClass}{/if}"{if $hiddenDeletedPost || $hiddenIgnoredPost} style="display: none"{/if}>
+ 				<div class="messageInner {@$messageClass} container-{cycle name=postCycle}{if !$sidebar->getUser()->userID} guestPost{/if}">
+ 					{if !$hiddenDeletedPost && !$hiddenIgnoredPost}<a id="post{@$post->postID}"></a>{/if}
+ 					

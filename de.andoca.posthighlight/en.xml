@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="en">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.canHighlightPost"><![CDATA[Can highlight postings]]></item>
+		<item name="wcf.acp.group.option.user.board.canHighlightPost.description"><![CDATA[Members of this group can highlight postings with special CSS classes]]></item>
+		<item name="wcf.acp.group.option.user.board.posthighlightClasses"><![CDATA[Available posting css classes]]></item>
+		<item name="wcf.acp.group.option.user.board.posthighlightClasses.description"><![CDATA[CSS classes available for this group. One class per line in the following format: <pre>className;classTitle</pre> className is the name of the CSS class and classTitle is the title shown to the user when selecting the class.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.MODULE_POSTHIGHLIGHT"><![CDATA[Posthighlight]]></item>
+		<item name="wcf.acp.option.MODULE_POSTHIGHLIGHT.description"><![CDATA[Enables users to highlight their messages when posting by assigning a special CSS class to them.]]></item>
+	</category>
+	<category name="de.andoca.posthighlight">
+		<item name="de.andoca.posthighlight.tabTitle"><![CDATA[Display]]></item>
+		<item name="de.andoca.posthighlight.selectTitle"><![CDATA[Display category]]></item>
+	</category>
+</language>

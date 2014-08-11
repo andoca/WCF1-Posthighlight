@@ -1,0 +1,1 @@
+ALTER TABLE `wbb1_1_post` ADD `posthighlightClass` VARCHAR( 255 ) NULL DEFAULT NULL;

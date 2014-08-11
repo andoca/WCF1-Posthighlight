@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.canHighlightPost"><![CDATA[Kann Beiträge hervorheben]]></item>
+		<item name="wcf.acp.group.option.user.board.canHighlightPost.description"><![CDATA[Mitglieder dieser Gruppe können Beiträge hervorheben.]]></item>
+		<item name="wcf.acp.group.option.user.board.posthighlightClasses"><![CDATA[Verfügbare Beitrag CSS Klassen]]></item>
+		<item name="wcf.acp.group.option.user.board.posthighlightClasses.description"><![CDATA[CSS Klassen die Mitglieder dieser Gruppe für Beiträge einstellen können um diese hervorzuheben. Eine Klasse pro Zeile im folgenden Format: <pre>klassenName;klassenTitel</pre> Wobei klassenName der Name der CSS Klasse ist und klassenTitel der Titel wie er dem Benutzer zur Auswahl angeboten wird.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.MODULE_POSTHIGHLIGHT"><![CDATA[Posthighlight Beitragsmarkierung ]]></item>
+		<item name="wcf.acp.option.MODULE_POSTHIGHLIGHT.description"><![CDATA[Ermöglicht es Benutzern Postings hervorzuheben indem diesen eine spezielle CSS Klasse zugewiesen wird.]]></item>
+	</category>
+	<category name="de.andoca.posthighlight">
+		<item name="de.andoca.posthighlight.tabTitle"><![CDATA[Anzeige]]></item>
+		<item name="de.andoca.posthighlight.selectTitle"><![CDATA[Anzeigekategorie des Beitrags]]></item>
+	</category>
+</language>

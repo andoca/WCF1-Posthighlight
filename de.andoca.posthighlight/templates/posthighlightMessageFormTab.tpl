@@ -1,0 +1,1 @@
+<li id="posthighlightTab"><a onclick="tabbedPane.openTab('posthighlight');"><span>{lang}de.andoca.posthighlight.tabTitle{/lang}</span></a></li>

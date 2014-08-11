@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.andoca.posthighlight">
+	<packageinformation>
+		<packagename><![CDATA[Posthighlight - Beitragsmarkierung]]></packagename>
+		<packagename language="en"><![CDATA[Posthighlight]]></packagename>
+		<packageDescription language="en"><![CDATA[Enables users to highlight their messages when posting by assigning a special CSS class to them.]]></packageDescription>
+		<packageDescription language="de"><![CDATA[Ermöglicht es Benutzern Postings hervorzuheben indem diesen eine spezielle CSS Klasse zugewiesen wird.]]></packageDescription>
+		<packageurl><![CDATA[http://www.andoca.de]]></packageurl>
+		<version>1.0.1</version>
+		<plugin>com.woltlab.wbb</plugin>
+		<date>2011-09-26</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Andoca Haustier-WG UG (haftungsbeschränkt)</author>
+		<authorurl>http://www.andoca.de</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.1.0">com.woltlab.wbb</requiredpackage>
+	</requiredpackages>
+
+	<optionalpackages>
+		<optionalpackage file="optionals/de.andoca.posthighlight.templatepatch.tar.gz">de.andoca.posthighlight.templatepatch</optionalpackage>
+	</optionalpackages>
+	
+	<instructions type="install">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<sql>install.sql</sql>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<options>options.xml</options>
+		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+	
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<options>options.xml</options>
+		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+</package>
